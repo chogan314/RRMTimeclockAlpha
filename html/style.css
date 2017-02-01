@@ -1,0 +1,22 @@
+body {
+    margin: 0;
+}
+
+#content {
+    display: flex;
+    justify-content: space-around;
+    align-content: center;
+    height: 100vh;
+}
+
+.column {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+}
+
+.column > * {
+    margin: 5px;
+}
